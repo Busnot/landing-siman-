@@ -1,6 +1,4 @@
-/* ------------------------------------ */
-/* 🏠 ESTILOS USADOS EN index.html     */
-/* ------------------------------------ */
+/* ESTILOS USADOS EN index.html     */
 
 /* Fuente principal del sitio */
 body {
@@ -11,7 +9,7 @@ body {
 
 /* Sección hero con imagen de fondo */
 .hero-section {
-  background-image: url('https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg'); /* Fondo hero */
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,9 +47,9 @@ body {
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* ------------------------------------ */
-/* 🗂️ ESTILOS USADOS EN categorias.html */
-/* ------------------------------------ */
+
+/*  ESTILOS USADOS EN categorias.html */
+
 
 /* Redefinir fuente por si este archivo CSS se usa por separado */
 body {
@@ -75,5 +73,21 @@ body {
   transform: translateY(-8px); /* Suave levitación */
 }
 
-/* === FORMULARIO CONTACTO === */
+/* FORMULARIO CONTACTO  */
 
+form .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+  transition: border-color 0.3s ease;
+}
+
+form .form-control:focus {
+  border-color: #cc0000;
+  box-shadow: 0 0 0 0.1rem rgba(204, 0, 0, 0.25);
+}
+
+.input-group-text {
+  border: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
